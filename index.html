@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galler</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading">
+      <h1>Новогодняя галерея</h1>
+    </div>
+    <div class="gallery">
+      <img src="./img/1.jpg" alt="image1" class="gallery__image" onclick="showImage(src)">
+      <img src="./img/2.jpg" alt="image2" class="gallery__image" onclick="showImage(src)">
+      <img src="./img/3.jpg" alt="image3" class="gallery__image" onclick="showImage(src)">
+      <img src="./img/4.jpg" alt="image4" class="gallery__image" onclick="showImage(src)">
+      <img src="./img/5.jpg" alt="image5" class="gallery__image" onclick="showImage(src)">
+      <img src="./img/6.jpg" alt="image6" class="gallery__image" onclick="showImage(src)">
+      <img src="./img/7.jpg" alt="image7" class="gallery__image" onclick="showImage(src)">
+      <img src="./img/8.jpg" alt="image8" class="gallery__image" onclick="showImage(src)">
+      <img src="./img/9.jpg" alt="image9" class="gallery__image" onclick="showImage(src)">
+      <img src="./img/10.jpg" alt="image10" class="gallery__image" onclick="showImage(src)">
+    </div>
+    <div class="imagePopupConteiner" id="imagePopup">
+      <div class="popupImage-block">
+        <span class="closeButton" onclick="closeImage()">x</span>
+      <img src="./img/10.jpg" alt="popup image" id="popupImage">
+      <p class="popup-text">С НОВЫМ ГОДОМ!!! </p>
+    </div>
+
+      </div>
+    <script src="./index.js"></script>
+</body>
+</html>
